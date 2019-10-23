@@ -29,9 +29,15 @@
   <link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css">
   <link href="<?php echo get_template_directory_uri(); ?>/css/flaticon.css" rel="stylesheet">
 
-  <!-- <link href="<?php echo get_template_directory_uri(); ?>/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- <link href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/css/slick.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/css/slick-theme.css" rel="stylesheet">
+  <script src="<?php echo get_template_directory_uri(); ?>/css/jquery.min.js"></script>
 
-	<?php wp_head(); ?>
+<script src="<?php echo get_template_directory_uri(); ?>/css/slick.min.js"></script> -->
+
+
+  <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>

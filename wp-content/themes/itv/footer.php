@@ -156,7 +156,7 @@ $('.main_consultas').slick({
   autoplay: false,
   slidesToShow: 2,
   slidesToScroll: 1,
-  dots: true,
+  dots:true,
   arrows: false,
   responsive: [{
       breakpoint: 1200,
